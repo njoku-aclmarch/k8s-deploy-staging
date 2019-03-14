@@ -68,7 +68,7 @@ pipeline {
     stage('Run production ready e2e check in staging') {
       steps {
         echo "Waiting for the service to start..."
-        sleep 150
+        sleep 250
 
         recordDynatraceSession (
           envId: 'Dynatrace Tenant',
