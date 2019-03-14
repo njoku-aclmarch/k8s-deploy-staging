@@ -63,7 +63,7 @@ pipeline {
     }
     
     
-    // DO NOT uncomment until 10_01 Lab
+    // DO NOT uncomment until 10_01 Lab - Its that time now
      
     stage('Run production ready e2e check in staging') {
       steps {
